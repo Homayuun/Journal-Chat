@@ -1,4 +1,4 @@
-# my-journal-webapp-lbta
+# my-journal-webapp
 
 a [Sails v1](https://sailsjs.com) application
 
