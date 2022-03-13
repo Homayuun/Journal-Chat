@@ -15,25 +15,24 @@ further developments on this project can lead to a social media or chat app.<br/
 # Installation
 # (first step): Node app
 1. Open myJournal-webapp folder in Atom [ if you've got required packages ] or Visual Studio <br/>
-2. Open console/terminal run this command 'sudo npm install sails -g ' <br/>
+2. Open console/terminal run this command 'sudo npm install sails -g ' & after that 'npm install' <br/>
 3. Optional (run this command to get informed whenever you hit an endpoint : 'sudo npm i -S sails-hook-morgan') <br/>
 4. Optional (run this command to automatically restart node app whenever you modify a file: 'sudo npm i -g nodemon')<br/>
 5. run node app.js<br/>
-6. open your browser go to http://localhost:1440/home or http://*yourIP*:1440/home & you'll be asked to login or sign up (your choice!)<br/>
-7. you can login with : emailAddress: homayun@gmail.com , password: 123456789<br/>
-8. you'll be redirected to homepage and see the posts <br/>
+6. open your browser go to http://localhost:1337/home or http://*yourIP*:1337/home & you'll be asked to sign up <br/>
+7. you'll be redirected to homepage and see the posts <br/>
 
 # (second step): iOS
 1. Download the project<br/>
 2. Open Journal.xcodeproj<br/>
 3. Go to "Service" from navigator<br/>
-4. change baseUrl (line 13) from what it is to your own IP Address {<br/>
+4. change baseUrl (line 13) from what it is to your own IP Address , also change :1440 to :1337 {<br/>
    if you don't know your IP address:
    - open terminal <br/>
    - type "ifconfig en0"<br/>
    - inet is your IP Address<br/>
 }<br/>
-5. If you've signed up with a new email address through node app {<br/>
+5. After you've signed up with a new email address through node app {<br/>
    - go to line 72 (let params = ....) <br/>
    - change emailAddress & password<br/>
 }<br/>
