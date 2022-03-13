@@ -1,5 +1,5 @@
 # Journal
-Is a fullstack app featuring a local host and ios app communicating with each other through HTTP-Methods which gets data from defined REST-API endpoints in node app. <br/>
+Is a fullstack app featuring a Node app and iOS app communicating with each other through HTTP-Methods which gets data from defined REST-API endpoints in node app. <br/>
 this app does not feature a decent UI and is focused on the technical aspects like: HTTP Requests (PUT,POST,GET,DELETE) & User Authentication. <br/>
 further developments on this project can lead to a social media or chat app.<br/>
 
